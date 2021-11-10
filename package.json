@@ -1,7 +1,14 @@
 {
   "name": "complete-react-course",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "engines": {
+    "npm": "6.x"
+  },
   "private": true,
+  
   "dependencies": {
     "firebase": "^7.15.5",
     "node-sass": "^4.14.1",
@@ -20,6 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+     "start": "node index.js",
+  "build": "ng build",
+  "heroku-postbuild": "ng build --prod" ,
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
